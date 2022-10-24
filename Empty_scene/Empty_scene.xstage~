@@ -29,9 +29,9 @@
    <columns>
     <column type="0" name="Drawing" displayOrder="0" width="100" anonymous="true" id="1"/>
     <column type="0" name="ATV-0B5622B6B7402A4F" displayOrder="0" width="100" anonymous="true" id="2">
-     <elementSeq exposures="1" val="A" id="2"/>
-     <elementSeq exposures="2" val="B" id="2"/>
-     <elementSeq exposures="3" val="C" id="2"/>
+     <elementSeq exposures="1-9" val="A" id="2"/>
+     <elementSeq exposures="10-19" val="B" id="2"/>
+     <elementSeq exposures="20-29" val="C" id="2"/>
     </column>
    </columns>
    <options>
