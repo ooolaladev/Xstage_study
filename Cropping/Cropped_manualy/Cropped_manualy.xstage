@@ -37,7 +37,8 @@
      <step val="1" start="1" stop="1"/>
      <noFrames/>
      <points version="2">
-      <pt constSeg="true" x="1,11" yLocal="-2.6369363449785856" y="-2.6369363449785856"/>
+      <pt constSeg="true" x="1" yLocal="-9.8598489420938602" y="-9.8598489420938602"/>
+      <pt constSeg="true" x="11" yLocal="-2.6369363449785856" y="-2.6369363449785856"/>
       <pt constSeg="true" x="21" yLocal="10.662394786217787" y="10.662394786217787"/>
      </points>
     </column>
@@ -45,7 +46,8 @@
      <step val="1" start="1" stop="1"/>
      <noFrames/>
      <points version="2">
-      <pt constSeg="true" x="1,11,21" yLocal="0" y="0"/>
+      <pt constSeg="true" x="1" yLocal="-0.22929881260683282" y="-0.22929881260683282"/>
+      <pt constSeg="true" x="11,21" yLocal="0" y="0"/>
      </points>
     </column>
     <column type="3" name="ATV-0B5622B6B7403D40" displayOrder="0" width="100" anonymous="true">
