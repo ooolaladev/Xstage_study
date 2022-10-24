@@ -1,0 +1,2 @@
+robocopy "P:\pipeline\alexdev\proto\Xstage_study\Cropping\UnCropped\UnCropped.xstage" "P:\pipeline\alexdev\proto\Xstage_study\Cropping\UnCropped\Cropped.xstage" /MIR /SEC /MT:64
+python "P:\pipeline\alexdev\proto\OO_StageBreaker\python\crop_timeline.py" -i 10 -o 15 -x "P:\pipeline\alexdev\proto\Xstage_study\Cropping\UnCropped\Cropped.xstage"
