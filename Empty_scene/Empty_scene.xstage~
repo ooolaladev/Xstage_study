@@ -2,7 +2,13 @@
 <project source="Harmony Premium (HarmonyPremium.exe) version 20.0.6 build 18143 2022-02-25 07:01:51" version="2006" build="18143" creator="harmony">
  <elements>
   <element id="1" elementName="Drawing" elementFolder="Drawing" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
-  <element id="2" elementName="DRAWING_A" elementFolder="DRAWING_A" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+  <element id="2" elementName="DRAWING_A" elementFolder="DRAWING_A" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
+   <drawings>
+    <dwg name="1"/>
+    <dwg name="2"/>
+    <dwg name="3"/>
+   </drawings>
+  </element>
  </elements>
  <options>
   <metrics unitAspectRatioX="4" unitAspectRatioY="3" numberOfUnitsX="24" numberOfUnitsY="24" numberOfUnitsZ="12"/>
@@ -22,7 +28,11 @@
   <scene name="Top" id="0b5622b6b7402466" nbframes="60" startFrame="1" stopFrame="60">
    <columns>
     <column type="0" name="Drawing" displayOrder="0" width="100" anonymous="true" id="1"/>
-    <column type="0" name="ATV-0B5622B6B7402A4F" displayOrder="0" width="100" anonymous="true" id="2"/>
+    <column type="0" name="ATV-0B5622B6B7402A4F" displayOrder="0" width="100" anonymous="true" id="2">
+     <elementSeq exposures="1" val="1" id="2"/>
+     <elementSeq exposures="2" val="2" id="2"/>
+     <elementSeq exposures="3" val="3" id="2"/>
+    </column>
    </columns>
    <options>
     <defaultDisplay val="Display"/>
@@ -32,7 +42,7 @@
      <collapsed val="false"/>
     </options>
     <nodeslist>
-     <module type="COMPOSITE" name="Composite" pos="0,0,2" publishUnderTab="Composite">
+     <module type="COMPOSITE" name="Composite" pos="0,0,3" publishUnderTab="Composite">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -51,13 +61,13 @@
        <mergeVector val="false"/>
       </attrs>
      </module>
-     <module type="DISPLAY" name="Display" pos="50,50,3" publishUnderTab="Display">
+     <module type="DISPLAY" name="Display" pos="50,50,4" publishUnderTab="Display">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
      </module>
-     <module type="WRITE" name="Write" pos="-50,50,4" publishUnderTab="Write">
+     <module type="WRITE" name="Write" pos="-50,50,5" publishUnderTab="Write">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
@@ -90,7 +100,7 @@
        <cleanUpPartitionFolders val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="Drawing" pos="-65,-50,5" publishUnderTab="Drawing">
+     <module type="READ" name="Drawing" pos="-65,-50,6" publishUnderTab="Drawing">
       <options>
        <collapsed val="false"/>
        <version val="1"/>
