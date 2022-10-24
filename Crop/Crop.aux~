@@ -1,0 +1,9 @@
+<!DOCTYPE SceneVersion>
+<SceneVersion VersionName="Crop" Modified="2022-10-24 11:11:28" ID="1">
+ <Element Name="Drawing" ID="1" Folder="Drawing"/>
+ <Element Name="DRAWING_A" ID="2" Folder="DRAWING_A">
+  <Drawing Key="" Name="A" Version="1"/>
+  <Drawing Key="" Name="B" Version="1"/>
+  <Drawing Key="" Name="C" Version="1"/>
+ </Element>
+</SceneVersion>
